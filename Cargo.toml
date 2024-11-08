@@ -1,0 +1,10 @@
+[package]
+name = "dataindex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+warp = "0.3"            # For the RESTful API
+serde = { version = "1.0", features = ["derive"] }  # For serializing/deserializing data
+tokio = { version = "1", features = ["full"] }      # For async runtime
+
